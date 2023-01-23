@@ -7,9 +7,7 @@ Anyone can contribute to this report by the [hw-probe](https://github.com/linuxh
 
     sudo -E hw-probe -all -upload
 
-Please submit a probe of your configuration if it's not presented on the page or is rare.
-
-Full-feature report is available here: https://linux-hardware.org/?view=trends
+Please contribute! Especially if your hardware is rare.
 
 Contents
 --------
@@ -17,6 +15,8 @@ Contents
 * [ Test Cases ](#test-cases)
 
 * [ System ](#system)
+  - [ OS                       ](#os)
+  - [ OS Family                ](#os-family)
   - [ Kernel                   ](#kernel)
   - [ Kernel Family            ](#kernel-family)
   - [ Kernel Major Ver.        ](#kernel-major-ver)
@@ -155,6 +155,8 @@ Contents
 Test Cases
 ----------
 
+Total: 24
+
 | Vendor        | Model                       | Probe                                                      | Date         |
 |---------------|-----------------------------|------------------------------------------------------------|--------------|
 | ASUSTek       | C8HM70-I/HDMI               | [5452f92c7b](https://linux-hardware.org/?probe=5452f92c7b) | Mar 29, 2021 |
@@ -178,13 +180,36 @@ Test Cases
 | Dell          | 05XGC8 A01                  | [f243c5fe72](https://linux-hardware.org/?probe=f243c5fe72) | Apr 17, 2020 |
 | Dell          | 05XGC8 A01                  | [7e85fad5a0](https://linux-hardware.org/?probe=7e85fad5a0) | Apr 17, 2020 |
 | Google        | Panther                     | [fbc127e88c](https://linux-hardware.org/?probe=fbc127e88c) | Feb 17, 2020 |
-| Google        | Panther                     | [f369e3ccad](https://linux-hardware.org/?probe=f369e3ccad) | Feb 17, 2020 |
 | Google        | Panther                     | [5ead9de21a](https://linux-hardware.org/?probe=5ead9de21a) | Feb 17, 2020 |
 | ASUSTek       | P5B-PLUS Series             | [b0a90d8478](https://linux-hardware.org/?probe=b0a90d8478) | Jan 02, 2020 |
 | NEC Comput... | ECS-945G                    | [3494d9ef49](https://linux-hardware.org/?probe=3494d9ef49) | Nov 10, 2019 |
 
 System
 ------
+
+OS
+--
+
+Installed operating systems
+
+![OS](./images/pie_chart/os_name.svg)
+
+
+| Name      | Desktops | Percent |
+|-----------|----------|---------|
+| Chrome OS | 14       | 100%    |
+
+OS Family
+---------
+
+OS without a version
+
+![OS Family](./images/pie_chart/os_family.svg)
+
+
+| Name      | Desktops | Percent |
+|-----------|----------|---------|
+| Chrome OS | 14       | 100%    |
 
 Kernel
 ------
@@ -386,7 +411,7 @@ Motherboard model
 
 | Name                                | Desktops | Percent |
 |-------------------------------------|----------|---------|
-| Samsung Samsung DeskTop System      | 1        | 7.14%   |
+| Samsung DeskTop System              | 1        | 7.14%   |
 | NEC Computers ECS-945G              | 1        | 7.14%   |
 | MSI MS-7350                         | 1        | 7.14%   |
 | Intel DN2820FYK H24582-202          | 1        | 7.14%   |
@@ -412,7 +437,7 @@ Motherboard model prefix
 | Name                   | Desktops | Percent |
 |------------------------|----------|---------|
 | Dell OptiPlex          | 2        | 14.29%  |
-| Samsung Samsung        | 1        | 7.14%   |
+| Samsung DeskTop        | 1        | 7.14%   |
 | NEC Computers ECS-945G | 1        | 7.14%   |
 | MSI MS-7350            | 1        | 7.14%   |
 | Intel DN2820FYK        | 1        | 7.14%   |
@@ -437,12 +462,11 @@ Motherboard manufacture year
 |------|----------|---------|
 | 2008 | 3        | 21.43%  |
 | 2014 | 2        | 14.29%  |
+| 2012 | 2        | 14.29%  |
 | 2007 | 2        | 14.29%  |
 | 2019 | 1        | 7.14%   |
 | 2016 | 1        | 7.14%   |
 | 2015 | 1        | 7.14%   |
-| 2013 | 1        | 7.14%   |
-| 2012 | 1        | 7.14%   |
 | 2010 | 1        | 7.14%   |
 | 2005 | 1        | 7.14%   |
 
@@ -610,22 +634,22 @@ Geographic location (city)
 ![City](./images/pie_chart/node_city.svg)
 
 
-| City                 | Desktops | Percent |
-|----------------------|----------|---------|
-| Winter Garden        | 1        | 7.14%   |
-| Welwyn Garden City   | 1        | 7.14%   |
-| Suwon                | 1        | 7.14%   |
-| Stevenage            | 1        | 7.14%   |
-| Seoul                | 1        | 7.14%   |
-| Oklahoma City        | 1        | 7.14%   |
-| Milan                | 1        | 7.14%   |
-| Middle River         | 1        | 7.14%   |
-| Marysville           | 1        | 7.14%   |
-| Kingston upon Thames | 1        | 7.14%   |
-| Casalecchio di Reno  | 1        | 7.14%   |
-| Campinas             | 1        | 7.14%   |
-| Aschaffenburg        | 1        | 7.14%   |
-| Arlington            | 1        | 7.14%   |
+| City               | Desktops | Percent |
+|--------------------|----------|---------|
+| Winter Garden      | 1        | 7.14%   |
+| Welwyn Garden City | 1        | 7.14%   |
+| Suwon              | 1        | 7.14%   |
+| Sidney             | 1        | 7.14%   |
+| Oklahoma City      | 1        | 7.14%   |
+| Middle River       | 1        | 7.14%   |
+| Hitchin            | 1        | 7.14%   |
+| Forlì             | 1        | 7.14%   |
+| Concesio           | 1        | 7.14%   |
+| Cleveleys          | 1        | 7.14%   |
+| Cheonan            | 1        | 7.14%   |
+| Campinas           | 1        | 7.14%   |
+| Aschaffenburg      | 1        | 7.14%   |
+| Arlington          | 1        | 7.14%   |
 
 Drives
 ------
@@ -1171,13 +1195,13 @@ Monitor models
 
 | Model                                                                | Desktops | Percent |
 |----------------------------------------------------------------------|----------|---------|
-| Toshiba TV TSB0106 1280x720 1050x590mm 47.4-inch                     | 1        | 7.69%   |
-| Sony TV SNY9C01 1360x768                                             | 1        | 7.69%   |
+| Toshiba TV TSB0106 1920x1080 708x398mm 32.0-inch                     | 1        | 7.69%   |
+| Sony TV SNY9C01 1920x1080                                            | 1        | 7.69%   |
 | Samsung Electronics SyncMaster SAM03F3 1920x1200 518x324mm 24.1-inch | 1        | 7.69%   |
 | OUT HDMI OUT0240 1920x1200 341x256mm 16.8-inch                       | 1        | 7.69%   |
 | Lite-On R17AAC/S LTN023F 1280x1024 338x270mm 17.0-inch               | 1        | 7.69%   |
-| Goldstar W1952 GSM4B77 1440x900 408x255mm 18.9-inch                  | 1        | 7.69%   |
-| Goldstar E2260 GSM57DF 1680x1050 480x270mm 21.7-inch                 | 1        | 7.69%   |
+| Goldstar W1952 GSM4B77 1440x900 410x260mm 19.1-inch                  | 1        | 7.69%   |
+| Goldstar E2260 GSM57DF 1920x1080 477x268mm 21.5-inch                 | 1        | 7.69%   |
 | Gateway FPD1775W GWY06AF 1280x1024 373x209mm 16.8-inch               | 1        | 7.69%   |
 | Dell P2418HZm DELD0C4 1920x1080 527x296mm 23.8-inch                  | 1        | 7.69%   |
 | Dell 2407WFP DELA016 1920x1200 519x324mm 24.1-inch                   | 1        | 7.69%   |
@@ -1340,7 +1364,7 @@ Controller models
 | Realtek RTL-8100/8101L/8139 PCI Fast Ethernet Adapter             | 3        | 11.11%  |
 | TP-Link AC600 wireless Realtek RTL8811AU [Archer T2U Nano]        | 2        | 7.41%   |
 | Realtek RTL8192CU 802.11n WLAN Adapter                            | 2        | 7.41%   |
-| TP-Link TL WN823N RTL8192EU                                       | 1        | 3.7%    |
+| TP-Link TL-WN823N v2/v3 [Realtek RTL8192EU]                       | 1        | 3.7%    |
 | Realtek RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter             | 1        | 3.7%    |
 | Realtek 802.11ac NIC                                              | 1        | 3.7%    |
 | Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter        | 1        | 3.7%    |
@@ -1380,7 +1404,7 @@ Wireless models
 |------------------------------------------------------------|----------|---------|
 | TP-Link AC600 wireless Realtek RTL8811AU [Archer T2U Nano] | 2        | 20%     |
 | Realtek RTL8192CU 802.11n WLAN Adapter                     | 2        | 20%     |
-| TP-Link TL WN823N RTL8192EU                                | 1        | 10%     |
+| TP-Link TL-WN823N v2/v3 [Realtek RTL8192EU]                | 1        | 10%     |
 | Realtek RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter      | 1        | 10%     |
 | Realtek 802.11ac NIC                                       | 1        | 10%     |
 | Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter | 1        | 10%     |
@@ -1446,8 +1470,8 @@ Currently used network controller
 
 | Kind     | Desktops | Percent |
 |----------|----------|---------|
-| Ethernet | 12       | 70.59%  |
-| WiFi     | 5        | 29.41%  |
+| Ethernet | 11       | 68.75%  |
+| WiFi     | 5        | 31.25%  |
 
 NICs
 ----
@@ -1622,10 +1646,10 @@ Printer device models
 ![Printer Model](./images/pie_chart/printer_model.svg)
 
 
-| Model                      | Desktops | Percent |
-|----------------------------|----------|---------|
-| Seiko Epson ET-2710 Series | 1        | 50%     |
-| HP LaserJet 1012           | 1        | 50%     |
+| Model                    | Desktops | Percent |
+|--------------------------|----------|---------|
+| Seiko Epson L3150 Series | 1        | 50%     |
+| HP LaserJet 1012         | 1        | 50%     |
 
 Scanner Vendor
 --------------

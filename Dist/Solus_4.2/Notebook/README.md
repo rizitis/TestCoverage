@@ -7,9 +7,7 @@ Anyone can contribute to this report by the [hw-probe](https://github.com/linuxh
 
     sudo -E hw-probe -all -upload
 
-Please submit a probe of your configuration if it's not presented on the page or is rare.
-
-Full-feature report is available here: https://linux-hardware.org/?view=trends
+Please contribute! Especially if your hardware is rare.
 
 Contents
 --------
@@ -154,6 +152,8 @@ Contents
 
 Test Cases
 ----------
+
+Total: 18
 
 | Vendor        | Model                       | Probe                                                      | Date         |
 |---------------|-----------------------------|------------------------------------------------------------|--------------|
@@ -622,21 +622,21 @@ Geographic location (city)
 ![City](./images/pie_chart/node_city.svg)
 
 
-| City            | Notebooks | Percent |
-|-----------------|-----------|---------|
-| Г„ngelholm   | 1         | 7.69%   |
-| Winchmore Hill  | 1         | 7.69%   |
-| St Petersburg   | 1         | 7.69%   |
-| Severna Park    | 1         | 7.69%   |
-| San Jose        | 1         | 7.69%   |
-| MГЎlaga       | 1         | 7.69%   |
-| Muiderberg      | 1         | 7.69%   |
-| Guatemala City  | 1         | 7.69%   |
-| Guanajuato City | 1         | 7.69%   |
-| Delhi           | 1         | 7.69%   |
-| Auckland        | 1         | 7.69%   |
-| Athens          | 1         | 7.69%   |
-| Antalya         | 1         | 7.69%   |
+| City                      | Notebooks | Percent |
+|---------------------------|-----------|---------|
+| St Petersburg             | 1         | 7.69%   |
+| Severna Park              | 1         | 7.69%   |
+| San Francisco del Rincón | 1         | 7.69%   |
+| San Francisco             | 1         | 7.69%   |
+| Málaga                   | 1         | 7.69%   |
+| Istanbul                  | 1         | 7.69%   |
+| Guatemala City            | 1         | 7.69%   |
+| Enfield                   | 1         | 7.69%   |
+| Delhi                     | 1         | 7.69%   |
+| Auckland                  | 1         | 7.69%   |
+| Athens                    | 1         | 7.69%   |
+| Ängelholm                | 1         | 7.69%   |
+| Amsterdam                 | 1         | 7.69%   |
 
 Drives
 ------
@@ -657,7 +657,7 @@ Hard drive vendors
 | Micron Technology   | 2         | 3      | 11.11%  |
 | Transcend           | 1         | 1      | 5.56%   |
 | Toshiba             | 1         | 2      | 5.56%   |
-| SK Hynix            | 1         | 1      | 5.56%   |
+| SK hynix            | 1         | 1      | 5.56%   |
 | SanDisk             | 1         | 1      | 5.56%   |
 | Kingston            | 1         | 1      | 5.56%   |
 | Intel               | 1         | 1      | 5.56%   |
@@ -680,7 +680,7 @@ Hard drive models
 | WDC WD10JPVX-22JC3T0 1TB                 | 1         | 5.56%   |
 | Transcend TS240GSSD220S 240GB            | 1         | 5.56%   |
 | Toshiba MK7575GSX 752GB                  | 1         | 5.56%   |
-| SK Hynix NVMe SSD Drive 128GB            | 1         | 5.56%   |
+| SK hynix NVMe SSD Drive 128GB            | 1         | 5.56%   |
 | Seagate ST9750420AS 752GB                | 1         | 5.56%   |
 | Seagate ST9320325AS 320GB                | 1         | 5.56%   |
 | SanDisk SD7SN6S512G1001 512GB SSD        | 1         | 5.56%   |
@@ -690,7 +690,7 @@ Hard drive models
 | Micron 1100_MTFDDAV256TBN 256GB SSD      | 1         | 5.56%   |
 | Kingston SA400S37240G 240GB SSD          | 1         | 5.56%   |
 | Intel SSDSC2CW120A3 120GB                | 1         | 5.56%   |
-| Gigabyte GP-GSTFS31120GNTD 120GB         | 1         | 5.56%   |
+| Gigabyte GP-GSTFS31120GNTD 120GB SSD     | 1         | 5.56%   |
 | A-DATA SX8200PNP-512GT 512GB             | 1         | 5.56%   |
 
 HDD Vendor
@@ -884,7 +884,7 @@ Storage controller vendors
 | Vendor              | Notebooks | Percent |
 |---------------------|-----------|---------|
 | Intel               | 12        | 80%     |
-| SK Hynix            | 1         | 6.67%   |
+| SK hynix            | 1         | 6.67%   |
 | Samsung Electronics | 1         | 6.67%   |
 | ADATA Technology    | 1         | 6.67%   |
 
@@ -901,7 +901,7 @@ Storage controller models
 | Intel 6 Series/C200 Series Chipset Family 6 port Mobile SATA AHCI Controller   | 4         | 26.67%  |
 | Intel Sunrise Point-LP SATA Controller [AHCI mode]                             | 2         | 13.33%  |
 | Intel 7 Series Chipset Family 6-port SATA Controller [AHCI mode]               | 2         | 13.33%  |
-| SK Hynix BC501 NVMe Solid State Drive                                          | 1         | 6.67%   |
+| SK hynix BC501 NVMe Solid State Drive                                          | 1         | 6.67%   |
 | Samsung NVMe SSD Controller SM981/PM981/PM983                                  | 1         | 6.67%   |
 | Intel Cannon Lake Mobile PCH SATA AHCI Controller                              | 1         | 6.67%   |
 | Intel 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]          | 1         | 6.67%   |
@@ -1181,8 +1181,8 @@ Monitor models
 | Model                                                                | Notebooks | Percent |
 |----------------------------------------------------------------------|-----------|---------|
 | Samsung Electronics LCD Monitor SEC3150 1366x768 344x193mm 15.5-inch | 1         | 6.67%   |
-| Samsung Electronics LCD Monitor SDC5441 1366x768 344x194mm 15.5-inch | 1         | 6.67%   |
-| LG Display LCD Monitor LGD05E5 1920x1080 344x194mm 15.5-inch         | 1         | 6.67%   |
+| Samsung Electronics LCD Monitor SDC5441 1366x768 309x174mm 14.0-inch | 1         | 6.67%   |
+| LG Display LCD Monitor LGD05E5 1920x1080 340x190mm 15.3-inch         | 1         | 6.67%   |
 | LG Display LCD Monitor LGD0465 1366x768 344x194mm 15.5-inch          | 1         | 6.67%   |
 | LG Display LCD Monitor LGD044F 1920x1080 345x194mm 15.6-inch         | 1         | 6.67%   |
 | LG Display LCD Monitor LGD020C 1600x900 345x194mm 15.6-inch          | 1         | 6.67%   |
@@ -1307,15 +1307,16 @@ Controller vendors
 ![Net Controller Vendor](./images/pie_chart/net_vendor.svg)
 
 
-| Vendor                   | Notebooks | Percent |
-|--------------------------|-----------|---------|
-| Realtek Semiconductor    | 7         | 31.82%  |
-| Intel                    | 6         | 27.27%  |
-| Qualcomm Atheros         | 5         | 22.73%  |
-| Ralink                   | 1         | 4.55%   |
-| Marvell Technology Group | 1         | 4.55%   |
-| Hewlett-Packard          | 1         | 4.55%   |
-| Broadcom                 | 1         | 4.55%   |
+| Vendor                        | Notebooks | Percent |
+|-------------------------------|-----------|---------|
+| Realtek Semiconductor         | 7         | 30.43%  |
+| Intel                         | 6         | 26.09%  |
+| Qualcomm Atheros              | 5         | 21.74%  |
+| Ralink                        | 1         | 4.35%   |
+| OnePlus Technology (Shenzhen) | 1         | 4.35%   |
+| Marvell Technology Group      | 1         | 4.35%   |
+| Hewlett-Packard               | 1         | 4.35%   |
+| Broadcom                      | 1         | 4.35%   |
 
 Net Controller Model
 --------------------
@@ -1327,29 +1328,30 @@ Controller models
 
 | Model                                                             | Notebooks | Percent |
 |-------------------------------------------------------------------|-----------|---------|
-| Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller | 4         | 14.81%  |
-| Intel 82579LM Gigabit Network Connection (Lewisville)             | 2         | 7.41%   |
-| Realtek RTL8822BE 802.11a/b/g/n/ac WiFi adapter                   | 1         | 3.7%    |
-| Realtek RTL8723AE PCIe Wireless Network Adapter                   | 1         | 3.7%    |
-| Realtek RTL810xE PCI Express Fast Ethernet controller             | 1         | 3.7%    |
-| Realtek Killer E2600 Gigabit Ethernet Controller                  | 1         | 3.7%    |
-| Ralink RT2790 Wireless 802.11n 1T/2R PCIe                         | 1         | 3.7%    |
-| Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter        | 1         | 3.7%    |
-| Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter        | 1         | 3.7%    |
-| Qualcomm Atheros AR9287 Wireless Network Adapter (PCI-Express)    | 1         | 3.7%    |
-| Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express)    | 1         | 3.7%    |
-| Qualcomm Atheros AR8162 Fast Ethernet                             | 1         | 3.7%    |
-| Marvell Group 88E8071 PCI-E Gigabit Ethernet Controller           | 1         | 3.7%    |
-| Intel Wireless 8260                                               | 1         | 3.7%    |
-| Intel Wireless 7260                                               | 1         | 3.7%    |
-| Intel Wi-Fi 6 AX200                                               | 1         | 3.7%    |
-| Intel Ethernet Connection I219-LM                                 | 1         | 3.7%    |
-| Intel Ethernet Connection I217-V                                  | 1         | 3.7%    |
-| Intel Centrino Wireless-N 1030 [Rainbow Peak]                     | 1         | 3.7%    |
-| Intel Centrino Advanced-N 6230 [Rainbow Peak]                     | 1         | 3.7%    |
-| Intel Centrino Advanced-N 6205 [Taylor Peak]                      | 1         | 3.7%    |
-| HP lt4112 Gobi 4G Module Network Device                           | 1         | 3.7%    |
-| Broadcom NetLink BCM57785 Gigabit Ethernet PCIe                   | 1         | 3.7%    |
+| Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller | 4         | 14.29%  |
+| Intel 82579LM Gigabit Network Connection (Lewisville)             | 2         | 7.14%   |
+| Realtek RTL8822BE 802.11a/b/g/n/ac WiFi adapter                   | 1         | 3.57%   |
+| Realtek RTL8723AE PCIe Wireless Network Adapter                   | 1         | 3.57%   |
+| Realtek RTL810xE PCI Express Fast Ethernet controller             | 1         | 3.57%   |
+| Realtek Killer E2600 Gigabit Ethernet Controller                  | 1         | 3.57%   |
+| Ralink RT2790 Wireless 802.11n 1T/2R PCIe                         | 1         | 3.57%   |
+| Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter        | 1         | 3.57%   |
+| Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter        | 1         | 3.57%   |
+| Qualcomm Atheros AR9287 Wireless Network Adapter (PCI-Express)    | 1         | 3.57%   |
+| Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express)    | 1         | 3.57%   |
+| Qualcomm Atheros AR8162 Fast Ethernet                             | 1         | 3.57%   |
+| OnePlus (Shenzhen) SM8150-MTP _SN:3BB6B401                        | 1         | 3.57%   |
+| Marvell Group 88E8071 PCI-E Gigabit Ethernet Controller           | 1         | 3.57%   |
+| Intel Wireless 8260                                               | 1         | 3.57%   |
+| Intel Wireless 7260                                               | 1         | 3.57%   |
+| Intel Wi-Fi 6 AX200                                               | 1         | 3.57%   |
+| Intel Ethernet Connection I219-LM                                 | 1         | 3.57%   |
+| Intel Ethernet Connection I217-V                                  | 1         | 3.57%   |
+| Intel Centrino Wireless-N 1030 [Rainbow Peak]                     | 1         | 3.57%   |
+| Intel Centrino Advanced-N 6230 [Rainbow Peak]                     | 1         | 3.57%   |
+| Intel Centrino Advanced-N 6205 [Taylor Peak]                      | 1         | 3.57%   |
+| HP lt4112 Gobi 4G Module Network Device                           | 1         | 3.57%   |
+| Broadcom NetLink BCM57785 Gigabit Ethernet PCIe                   | 1         | 3.57%   |
 
 Wireless Vendor
 ---------------
@@ -1438,8 +1440,9 @@ Ethernet, WiFi or modem
 
 | Kind     | Notebooks | Percent |
 |----------|-----------|---------|
-| WiFi     | 13        | 50%     |
-| Ethernet | 13        | 50%     |
+| WiFi     | 13        | 48.15%  |
+| Ethernet | 13        | 48.15%  |
+| Unknown  | 1         | 3.7%    |
 
 Used Controller
 ---------------
@@ -1451,8 +1454,8 @@ Currently used network controller
 
 | Kind     | Notebooks | Percent |
 |----------|-----------|---------|
-| WiFi     | 11        | 50%     |
-| Ethernet | 11        | 50%     |
+| WiFi     | 11        | 91.67%  |
+| Ethernet | 1         | 8.33%   |
 
 NICs
 ----
@@ -1506,16 +1509,16 @@ Controller models
 ![Bluetooth Model](./images/pie_chart/bt_model.svg)
 
 
-| Model                              | Notebooks | Percent |
-|------------------------------------|-----------|---------|
-| Intel Bluetooth Device             | 3         | 30%     |
-| Toshiba RT Bluetooth Radio         | 1         | 10%     |
-| Realtek Bluetooth Radio            | 1         | 10%     |
-| Qualcomm Atheros AR9462 Bluetooth  | 1         | 10%     |
-| Qualcomm Atheros AR3011 Bluetooth  | 1         | 10%     |
-| Lite-On Bluetooth Device           | 1         | 10%     |
-| Intel Bluetooth wireless interface | 1         | 10%     |
-| Intel AX200 Bluetooth              | 1         | 10%     |
+| Model                                            | Notebooks | Percent |
+|--------------------------------------------------|-----------|---------|
+| Intel Centrino Advanced-N 6230 Bluetooth adapter | 2         | 20%     |
+| Intel Bluetooth wireless interface               | 2         | 20%     |
+| Toshiba RT Bluetooth Radio                       | 1         | 10%     |
+| Realtek Bluetooth Radio                          | 1         | 10%     |
+| Qualcomm Atheros AR9462 Bluetooth                | 1         | 10%     |
+| Qualcomm Atheros AR3011 Bluetooth                | 1         | 10%     |
+| Lite-On Qualcomm Atheros QCA9377 Bluetooth       | 1         | 10%     |
+| Intel AX200 Bluetooth                            | 1         | 10%     |
 
 Sound
 -----
@@ -1589,8 +1592,8 @@ Memory module models
 |-----------------------------------------------------------|-----------|---------|
 | Samsung RAM M471B5273DH0-CK0 4GB SODIMM DDR3 1600MT/s     | 1         | 16.67%  |
 | Nanya RAM NT2GC64B88B0NS-CG 2GB SODIMM DDR3 1334MT/s      | 1         | 16.67%  |
-| Micron RAM 16KTF51264HZ-1G6M1 4096MB SODIMM DDR3 1600MT/s | 1         | 16.67%  |
-| Kingston RAM 9905624-044.A00G 8GB SODIMM DDR4 2400MT/s    | 1         | 16.67%  |
+| Micron RAM 16KTF51264HZ-1G6M1 4GB SODIMM DDR3 1600MT/s    | 1         | 16.67%  |
+| Kingston RAM 9905624-044.A00G 8192MB SODIMM DDR4 2400MT/s | 1         | 16.67%  |
 | Crucial RAM CT32G4SFD832A.M16FB 32GB SODIMM DDR4 3200MT/s | 1         | 16.67%  |
 | A-DATA RAM AO1P24HC8T1-B2NS 8GB SODIMM DDR4 2133MT/s      | 1         | 16.67%  |
 

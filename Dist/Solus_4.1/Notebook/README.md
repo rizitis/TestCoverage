@@ -7,9 +7,7 @@ Anyone can contribute to this report by the [hw-probe](https://github.com/linuxh
 
     sudo -E hw-probe -all -upload
 
-Please submit a probe of your configuration if it's not presented on the page or is rare.
-
-Full-feature report is available here: https://linux-hardware.org/?view=trends
+Please contribute! Especially if your hardware is rare.
 
 Contents
 --------
@@ -155,6 +153,8 @@ Contents
 Test Cases
 ----------
 
+Total: 50
+
 | Vendor        | Model                       | Probe                                                      | Date         |
 |---------------|-----------------------------|------------------------------------------------------------|--------------|
 | Lenovo        | ThinkPad T410 2522Y1L       | [3c4543a94f](https://linux-hardware.org/?probe=3c4543a94f) | Jan 26, 2021 |
@@ -198,7 +198,6 @@ Test Cases
 | HP            | Pavilion dv6                | [6939cb8715](https://linux-hardware.org/?probe=6939cb8715) | Apr 11, 2020 |
 | Acer          | Aspire E5-575               | [328b82f240](https://linux-hardware.org/?probe=328b82f240) | Apr 11, 2020 |
 | HP            | Pavilion dv6                | [0c6dc861d6](https://linux-hardware.org/?probe=0c6dc861d6) | Apr 06, 2020 |
-| HP            | Pavilion dv6                | [d459f09cfe](https://linux-hardware.org/?probe=d459f09cfe) | Apr 01, 2020 |
 | HP            | Pavilion dv6                | [3d9d707ea7](https://linux-hardware.org/?probe=3d9d707ea7) | Mar 30, 2020 |
 | Chuwi         | LapBook SE                  | [f7cfd1b163](https://linux-hardware.org/?probe=f7cfd1b163) | Mar 26, 2020 |
 | Acer          | Swift SF314-56              | [3826e4d14c](https://linux-hardware.org/?probe=3826e4d14c) | Mar 24, 2020 |
@@ -388,8 +387,8 @@ Scheme of partitioning
 | Type    | Notebooks | Percent |
 |---------|-----------|---------|
 | Unknown | 25        | 62.5%   |
-| GPT     | 11        | 27.5%   |
-| MBR     | 4         | 10%     |
+| GPT     | 12        | 30%     |
+| MBR     | 3         | 7.5%    |
 
 Dual Boot with Linux/BSD
 ------------------------
@@ -544,13 +543,13 @@ Motherboard manufacture year
 
 | Year | Notebooks | Percent |
 |------|-----------|---------|
-| 2018 | 6         | 15.38%  |
 | 2016 | 6         | 15.38%  |
+| 2018 | 5         | 12.82%  |
 | 2014 | 5         | 12.82%  |
 | 2019 | 4         | 10.26%  |
 | 2017 | 4         | 10.26%  |
+| 2015 | 3         | 7.69%   |
 | 2012 | 3         | 7.69%   |
-| 2015 | 2         | 5.13%   |
 | 2013 | 2         | 5.13%   |
 | 2010 | 2         | 5.13%   |
 | 2009 | 2         | 5.13%   |
@@ -621,12 +620,12 @@ Used RAM memory
 
 | Used GB   | Notebooks | Percent |
 |-----------|-----------|---------|
-| 1.01-2.0  | 13        | 33.33%  |
-| 2.01-3.0  | 10        | 25.64%  |
-| 4.01-8.0  | 7         | 17.95%  |
-| 3.01-4.0  | 5         | 12.82%  |
-| 0.51-1.0  | 3         | 7.69%   |
-| 8.01-16.0 | 1         | 2.56%   |
+| 1.01-2.0  | 14        | 35%     |
+| 2.01-3.0  | 10        | 25%     |
+| 4.01-8.0  | 7         | 17.5%   |
+| 3.01-4.0  | 5         | 12.5%   |
+| 0.51-1.0  | 3         | 7.5%    |
+| 8.01-16.0 | 1         | 2.5%    |
 
 Total Drives
 ------------
@@ -738,46 +737,46 @@ Geographic location (city)
 ![City](./images/pie_chart/node_city.svg)
 
 
-| City                  | Notebooks | Percent |
-|-----------------------|-----------|---------|
-| Columbus              | 2         | 5.13%   |
-| Vienna                | 1         | 2.56%   |
-| St. Cloud             | 1         | 2.56%   |
-| Semarang              | 1         | 2.56%   |
-| Santo Domingo Este    | 1         | 2.56%   |
-| Santiago              | 1         | 2.56%   |
-| Saint Paul            | 1         | 2.56%   |
-| Riga                  | 1         | 2.56%   |
-| Pessac                | 1         | 2.56%   |
-| Parkdale              | 1         | 2.56%   |
-| Paracuellos de Jarama | 1         | 2.56%   |
-| Muscat                | 1         | 2.56%   |
-| Morioka               | 1         | 2.56%   |
-| Minsk                 | 1         | 2.56%   |
-| Melbourne             | 1         | 2.56%   |
-| Marica                | 1         | 2.56%   |
-| Madrid                | 1         | 2.56%   |
-| Kyiv                  | 1         | 2.56%   |
-| Kayseri               | 1         | 2.56%   |
-| Jeddah                | 1         | 2.56%   |
-| Hyderabad             | 1         | 2.56%   |
-| Humble                | 1         | 2.56%   |
-| HrubieszГіw         | 1         | 2.56%   |
-| Hartington            | 1         | 2.56%   |
-| Guatemala City        | 1         | 2.56%   |
-| Guarulhos             | 1         | 2.56%   |
-| Guanajuato City       | 1         | 2.56%   |
-| Foz do IguaГ§u      | 1         | 2.56%   |
-| Curitiba              | 1         | 2.56%   |
-| Cleveland             | 1         | 2.56%   |
-| Changis-sur-Marne     | 1         | 2.56%   |
-| Budapest              | 1         | 2.56%   |
-| Bogor                 | 1         | 2.56%   |
-| Bengaluru             | 1         | 2.56%   |
-| Beijing               | 1         | 2.56%   |
-| Babice                | 1         | 2.56%   |
-| Auckland              | 1         | 2.56%   |
-| Arichuna              | 1         | 2.56%   |
+| City                      | Notebooks | Percent |
+|---------------------------|-----------|---------|
+| Melbourne                 | 2         | 5%      |
+| Columbus                  | 2         | 5%      |
+| Zhytomyr                  | 1         | 2.5%    |
+| Vienna                    | 1         | 2.5%    |
+| Teresopolis               | 1         | 2.5%    |
+| Semarang                  | 1         | 2.5%    |
+| Santo Domingo Este        | 1         | 2.5%    |
+| San Francisco del Rincón | 1         | 2.5%    |
+| Riga                      | 1         | 2.5%    |
+| Quilicura                 | 1         | 2.5%    |
+| Port Orange               | 1         | 2.5%    |
+| Pessac                    | 1         | 2.5%    |
+| Paracuellos de Jarama     | 1         | 2.5%    |
+| Muscat                    | 1         | 2.5%    |
+| Minsk                     | 1         | 2.5%    |
+| Minneapolis               | 1         | 2.5%    |
+| Makkah                    | 1         | 2.5%    |
+| Madrid                    | 1         | 2.5%    |
+| Kayseri                   | 1         | 2.5%    |
+| Jeddah                    | 1         | 2.5%    |
+| Jakarta                   | 1         | 2.5%    |
+| Ichinoseki                | 1         | 2.5%    |
+| Hyderabad                 | 1         | 2.5%    |
+| Humble                    | 1         | 2.5%    |
+| Hrubieszów               | 1         | 2.5%    |
+| Hartington                | 1         | 2.5%    |
+| Guatemala City            | 1         | 2.5%    |
+| Guarulhos                 | 1         | 2.5%    |
+| Foz do Iguaçu            | 1         | 2.5%    |
+| Curitiba                  | 1         | 2.5%    |
+| Cleveland                 | 1         | 2.5%    |
+| Changis-sur-Marne         | 1         | 2.5%    |
+| Caracas                   | 1         | 2.5%    |
+| Budapest                  | 1         | 2.5%    |
+| Bengaluru                 | 1         | 2.5%    |
+| Beijing                   | 1         | 2.5%    |
+| Babice                    | 1         | 2.5%    |
+| Auckland                  | 1         | 2.5%    |
 
 Drives
 ------
@@ -799,7 +798,7 @@ Hard drive vendors
 | Kingston            | 4         | 4      | 8.16%   |
 | SanDisk             | 3         | 3      | 6.12%   |
 | Unknown             | 2         | 2      | 4.08%   |
-| SK Hynix            | 2         | 2      | 4.08%   |
+| SK hynix            | 2         | 2      | 4.08%   |
 | Micron Technology   | 2         | 2      | 4.08%   |
 | Silicon Motion      | 1         | 1      | 2.04%   |
 | Lenovo              | 1         | 1      | 2.04%   |
@@ -832,12 +831,12 @@ Hard drive models
 | Unknown MMC Card  32GB                  | 1         | 2%      |
 | Unknown AJNB4R  16GB                    | 1         | 2%      |
 | Toshiba THNSNJ256GVNU 256GB SSD         | 1         | 2%      |
+| Toshiba NVMe SSD Drive 256GB            | 1         | 2%      |
 | Toshiba NVMe SSD Drive 1024GB           | 1         | 2%      |
 | Toshiba MQ01ABD075 752GB                | 1         | 2%      |
 | Toshiba MK5055GSX 500GB                 | 1         | 2%      |
-| Toshiba KBG30ZMS128G 128GB NVMe SSD     | 1         | 2%      |
-| SK Hynix PC401 HFS256GD9TNG-62A0A 256GB | 1         | 2%      |
-| SK Hynix HFM512GDJTNG-8310A 512GB       | 1         | 2%      |
+| SK hynix PC401 HFS256GD9TNG-62A0A 256GB | 1         | 2%      |
+| SK hynix HFM512GDJTNG-8310A 512GB       | 1         | 2%      |
 | Silicon Motion IM2P33F8BR1-512GB        | 1         | 2%      |
 | Seagate ST9500325AS 500GB               | 1         | 2%      |
 | Seagate ST9320325AS 320GB               | 1         | 2%      |
@@ -847,7 +846,7 @@ Hard drive models
 | Seagate ST1000LM014-SSHD-8GB            | 1         | 2%      |
 | SanDisk X400 M.2 2280 256GB SSD         | 1         | 2%      |
 | SanDisk SDSSDA120G 120GB                | 1         | 2%      |
-| Sandisk NVMe SSD Drive 256GB            | 1         | 2%      |
+| SanDisk NVMe SSD Drive 256GB            | 1         | 2%      |
 | Samsung SSD 860 EVO 500GB               | 1         | 2%      |
 | Samsung SSD 850 EVO 500GB               | 1         | 2%      |
 | Samsung SSD 850 EVO 120G                | 1         | 2%      |
@@ -860,13 +859,6 @@ Hard drive models
 | Kingston SA400S37240G 240GB SSD         | 1         | 2%      |
 | Kingston RBUSNS8280S3128GH2 128GB SSD   | 1         | 2%      |
 | Kingston NVMe SSD Drive 128GB           | 1         | 2%      |
-| Intel SSDSA2BW160G3L 160GB              | 1         | 2%      |
-| Hitachi HTS543216L9SA02 160GB           | 1         | 2%      |
-| FORESEE 128GB SSD                       | 1         | 2%      |
-| Crucial CT500MX500SSD4 500GB            | 1         | 2%      |
-| Crucial CT1000MX500SSD1 1TB             | 1         | 2%      |
-| Apple SSD SD128E 121GB                  | 1         | 2%      |
-| AAPL FireWire Target 250GB              | 1         | 2%      |
 
 HDD Vendor
 ----------
@@ -977,13 +969,13 @@ Amount of used disk space
 
 | Used GB  | Notebooks | Percent |
 |----------|-----------|---------|
-| 1-20     | 15        | 38.46%  |
-| 101-250  | 6         | 15.38%  |
-| 51-100   | 6         | 15.38%  |
-| 21-50    | 5         | 12.82%  |
-| 251-500  | 4         | 10.26%  |
-| 501-1000 | 2         | 5.13%   |
-| Unknown  | 1         | 2.56%   |
+| 1-20     | 15        | 37.5%   |
+| 51-100   | 7         | 17.5%   |
+| 101-250  | 6         | 15%     |
+| 21-50    | 5         | 12.5%   |
+| 251-500  | 4         | 10%     |
+| 501-1000 | 2         | 5%      |
+| Unknown  | 1         | 2.5%    |
 
 Malfunc. Drives
 ---------------
@@ -1082,11 +1074,11 @@ Storage controller vendors
 |------------------------------|-----------|---------|
 | Intel                        | 30        | 68.18%  |
 | Toshiba America Info Systems | 2         | 4.55%   |
-| SK Hynix                     | 2         | 4.55%   |
+| SK hynix                     | 2         | 4.55%   |
 | Samsung Electronics          | 2         | 4.55%   |
 | AMD                          | 2         | 4.55%   |
 | Silicon Motion               | 1         | 2.27%   |
-| Sandisk                      | 1         | 2.27%   |
+| SanDisk                      | 1         | 2.27%   |
 | Nvidia                       | 1         | 2.27%   |
 | Micron Technology            | 1         | 2.27%   |
 | Lenovo                       | 1         | 2.27%   |
@@ -1100,36 +1092,36 @@ Storage controller models
 ![Storage Model](./images/pie_chart/storage_model.svg)
 
 
-| Model                                                                            | Notebooks | Percent |
-|----------------------------------------------------------------------------------|-----------|---------|
-| Intel Sunrise Point-LP SATA Controller [AHCI mode]                               | 5         | 11.36%  |
-| Intel 7 Series Chipset Family 6-port SATA Controller [AHCI mode]                 | 4         | 9.09%   |
-| Intel Wildcat Point-LP SATA Controller [AHCI Mode]                               | 3         | 6.82%   |
-| Intel 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]   | 3         | 6.82%   |
-| Intel 8 Series SATA Controller 1 [AHCI mode]                                     | 3         | 6.82%   |
-| Intel HM170/QM170 Chipset SATA Controller [AHCI Mode]                            | 2         | 4.55%   |
-| Intel 5 Series/3400 Series Chipset 4 port SATA AHCI Controller                   | 2         | 4.55%   |
-| AMD FCH SATA Controller [AHCI mode]                                              | 2         | 4.55%   |
-| Toshiba America Info Systems XG4 NVMe SSD Controller                             | 1         | 2.27%   |
-| Toshiba America Info Systems Toshiba America Info Non-Volatile memory controller | 1         | 2.27%   |
-| SK Hynix PC401 NVMe Solid State Drive 256GB                                      | 1         | 2.27%   |
-| SK Hynix BC501 NVMe Solid State Drive                                            | 1         | 2.27%   |
-| Silicon Motion SM2263EN/SM2263XT SSD Controller                                  | 1         | 2.27%   |
-| Sandisk WD Blue SN550 NVMe SSD                                                   | 1         | 2.27%   |
-| Samsung NVMe SSD Controller SM981/PM981/PM983                                    | 1         | 2.27%   |
-| Samsung NVMe SSD Controller SM961/PM961/SM963                                    | 1         | 2.27%   |
-| Nvidia MCP79 AHCI Controller                                                     | 1         | 2.27%   |
-| Micron Non-Volatile memory controller                                            | 1         | 2.27%   |
-| Lenovo Non-Volatile memory controller                                            | 1         | 2.27%   |
-| Kingston Company U-SNS8154P3 NVMe SSD                                            | 1         | 2.27%   |
-| Intel Celeron/Pentium Silver Processor SATA Controller                           | 1         | 2.27%   |
-| Intel Cannon Point-LP SATA Controller [AHCI Mode]                                | 1         | 2.27%   |
-| Intel Cannon Lake Mobile PCH SATA AHCI Controller                                | 1         | 2.27%   |
-| Intel Atom Processor E3800 Series SATA AHCI Controller                           | 1         | 2.27%   |
-| Intel 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]            | 1         | 2.27%   |
-| Intel 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [IDE mode]                     | 1         | 2.27%   |
-| Intel 82801 Mobile SATA Controller [RAID mode]                                   | 1         | 2.27%   |
-| Intel 5 Series/3400 Series Chipset 6 port SATA AHCI Controller                   | 1         | 2.27%   |
+| Model                                                                          | Notebooks | Percent |
+|--------------------------------------------------------------------------------|-----------|---------|
+| Intel Sunrise Point-LP SATA Controller [AHCI mode]                             | 5         | 11.36%  |
+| Intel 7 Series Chipset Family 6-port SATA Controller [AHCI mode]               | 4         | 9.09%   |
+| Intel Wildcat Point-LP SATA Controller [AHCI Mode]                             | 3         | 6.82%   |
+| Intel 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] | 3         | 6.82%   |
+| Intel 8 Series SATA Controller 1 [AHCI mode]                                   | 3         | 6.82%   |
+| Intel HM170/QM170 Chipset SATA Controller [AHCI Mode]                          | 2         | 4.55%   |
+| Intel 5 Series/3400 Series Chipset 4 port SATA AHCI Controller                 | 2         | 4.55%   |
+| AMD FCH SATA Controller [AHCI mode]                                            | 2         | 4.55%   |
+| Toshiba America Info Systems XG5 NVMe SSD Controller                           | 1         | 2.27%   |
+| Toshiba America Info Systems XG4 NVMe SSD Controller                           | 1         | 2.27%   |
+| SK hynix PC401 NVMe Solid State Drive 256GB                                    | 1         | 2.27%   |
+| SK hynix BC501 NVMe Solid State Drive                                          | 1         | 2.27%   |
+| Silicon Motion SM2263EN/SM2263XT SSD Controller                                | 1         | 2.27%   |
+| SanDisk WD Blue SN550 NVMe SSD                                                 | 1         | 2.27%   |
+| Samsung NVMe SSD Controller SM981/PM981/PM983                                  | 1         | 2.27%   |
+| Samsung NVMe SSD Controller SM961/PM961/SM963                                  | 1         | 2.27%   |
+| Nvidia MCP79 AHCI Controller                                                   | 1         | 2.27%   |
+| Micron Non-Volatile memory controller                                          | 1         | 2.27%   |
+| Lenovo Non-Volatile memory controller                                          | 1         | 2.27%   |
+| Kingston Company U-SNS8154P3 NVMe SSD                                          | 1         | 2.27%   |
+| Intel Celeron/Pentium Silver Processor SATA Controller                         | 1         | 2.27%   |
+| Intel Cannon Point-LP SATA Controller [AHCI Mode]                              | 1         | 2.27%   |
+| Intel Cannon Lake Mobile PCH SATA AHCI Controller                              | 1         | 2.27%   |
+| Intel Atom Processor E3800 Series SATA AHCI Controller                         | 1         | 2.27%   |
+| Intel 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]          | 1         | 2.27%   |
+| Intel 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [IDE mode]                   | 1         | 2.27%   |
+| Intel 82801 Mobile SATA Controller [RAID mode]                                 | 1         | 2.27%   |
+| Intel 5 Series/3400 Series Chipset 6 port SATA AHCI Controller                 | 1         | 2.27%   |
 
 Storage Kind
 ------------
@@ -1484,7 +1476,7 @@ Monitor models
 |-----------------------------------------------------------------------|-----------|---------|
 | ___ LCDTV16 ___9000 1360x768                                          | 1         | 2.08%   |
 | Unknown LCDTV16 9000 1360x768 1600x900mm 72.3-inch                    | 1         | 2.08%   |
-| Sony LCD Monitor SNY05FA 1366x768 340x190mm 15.3-inch                 | 1         | 2.08%   |
+| Sony NvidiaDefault SNY05FA 1366x768 290x170mm 13.2-inch               | 1         | 2.08%   |
 | Sharp LQ133M1JW08 SHP1425 1920x1080 294x165mm 13.3-inch               | 1         | 2.08%   |
 | Sharp LCD Monitor SHP1449 1920x1080 294x165mm 13.3-inch               | 1         | 2.08%   |
 | Samsung Electronics SyncMaster SAM0375 1680x1050 494x320mm 23.2-inch  | 1         | 2.08%   |
@@ -1492,14 +1484,14 @@ Monitor models
 | Samsung Electronics LCD Monitor SEC3641 1280x800 331x207mm 15.4-inch  | 1         | 2.08%   |
 | Samsung Electronics LCD Monitor SEC3150 1366x768 344x193mm 15.5-inch  | 1         | 2.08%   |
 | Samsung Electronics LCD Monitor SDC4250 1920x1080 276x156mm 12.5-inch | 1         | 2.08%   |
-| PANDA LCD Monitor NCP0035 1920x1080 344x194mm 15.5-inch               | 1         | 2.08%   |
+| PANDA LCD Monitor NCP0035 1920x1080 309x174mm 14.0-inch               | 1         | 2.08%   |
 | LG Display LCD Monitor LGD0570 1920x1080 344x194mm 15.5-inch          | 1         | 2.08%   |
 | LG Display LCD Monitor LGD0521 1920x1080 309x174mm 14.0-inch          | 1         | 2.08%   |
 | LG Display LCD Monitor LGD0469 1920x1080 382x215mm 17.3-inch          | 1         | 2.08%   |
 | LG Display LCD Monitor LGD0404 1366x768 277x156mm 12.5-inch           | 1         | 2.08%   |
 | LG Display LCD Monitor LGD02F8 1366x768 309x174mm 14.0-inch           | 1         | 2.08%   |
-| Lenovo LCD Monitor LEN4036 1440x900 303x190mm 14.1-inch               | 1         | 2.08%   |
-| Goldstar ULTRAWIDE GSM59F1 2560x1080 673x284mm 28.8-inch              | 1         | 2.08%   |
+| Lenovo LCD Monitor LEN4036 1440x900 303x189mm 14.1-inch               | 1         | 2.08%   |
+| Goldstar ULTRAWIDE GSM59F1 2560x1080 798x334mm 34.1-inch              | 1         | 2.08%   |
 | Goldstar IPS FULLHD GSM5AB8 1920x1080 480x270mm 21.7-inch             | 1         | 2.08%   |
 | Goldstar E2241 GSM581A 1920x1080 477x268mm 21.5-inch                  | 1         | 2.08%   |
 | GKK MONITOR GKK3034 1920x1080                                         | 1         | 2.08%   |
@@ -1516,20 +1508,12 @@ Monitor models
 | BOE LCD Monitor BOE05F3 1366x768 309x173mm 13.9-inch                  | 1         | 2.08%   |
 | BenQ GW2480 BNQ78E7 1920x1080 527x296mm 23.8-inch                     | 1         | 2.08%   |
 | AU Optronics LCD Monitor AUOD0ED 1920x1080 344x193mm 15.5-inch        | 1         | 2.08%   |
-| AU Optronics LCD Monitor AUO82ED 1920x1080 344x193mm 15.5-inch        | 1         | 2.08%   |
+| AU Optronics LCD Monitor AUO82ED 1920x1080 344x194mm 15.5-inch        | 1         | 2.08%   |
 | AU Optronics LCD Monitor AUO70EC 1366x768 344x193mm 15.5-inch         | 1         | 2.08%   |
 | AU Optronics LCD Monitor AUO462D 1920x1080 293x165mm 13.2-inch        | 1         | 2.08%   |
 | AU Optronics LCD Monitor AUO41ED 1920x1080 344x193mm 15.5-inch        | 1         | 2.08%   |
-| AU Optronics LCD Monitor AUO403D 1920x1080 309x174mm 14.0-inch        | 1         | 2.08%   |
+| AU Optronics LCD Monitor AUO403D 1920x1080 309x173mm 13.9-inch        | 1         | 2.08%   |
 | AU Optronics LCD Monitor AUO30ED 1920x1080 344x193mm 15.5-inch        | 1         | 2.08%   |
-| AU Optronics LCD Monitor AUO2E3C 1366x768 309x173mm 13.9-inch         | 1         | 2.08%   |
-| AU Optronics LCD Monitor AUO233E 1600x900 309x174mm 14.0-inch         | 1         | 2.08%   |
-| AU Optronics LCD Monitor AUO11EC 1366x768 344x193mm 15.5-inch         | 1         | 2.08%   |
-| AU Optronics LCD Monitor AUO1136 2560x1440 309x174mm 14.0-inch        | 1         | 2.08%   |
-| Apple Color LCD APPA013 2560x1600 286x179mm 13.3-inch                 | 1         | 2.08%   |
-| Apple Color LCD APP9C5B 1280x800 290x180mm 13.4-inch                  | 1         | 2.08%   |
-| AOC 24G2W1G5 AOC2402 1920x1080 527x296mm 23.8-inch                    | 1         | 2.08%   |
-| AOC 1621Wb AOC1621 1366x768 344x194mm 15.5-inch                       | 1         | 2.08%   |
 
 Monitor Resolution
 ------------------
@@ -1721,7 +1705,7 @@ Controller models
 | Qualcomm Atheros AR8152 v1.1 Fast Ethernet                                     | 1         | 1.32%   |
 | Nvidia MCP79 Ethernet                                                          | 1         | 1.32%   |
 | Marvell Group Yukon Optima 88E8059 [PCIe Gigabit Ethernet Controller with AVB] | 1         | 1.32%   |
-| Lenovo Thinkpad USB LAN                                                        | 1         | 1.32%   |
+| Lenovo Thinkpad LAN                                                            | 1         | 1.32%   |
 | Intel Wireless 8260                                                            | 1         | 1.32%   |
 | Intel Wireless 7265                                                            | 1         | 1.32%   |
 | Intel Wireless 3160                                                            | 1         | 1.32%   |
@@ -1737,12 +1721,6 @@ Controller models
 | Intel Centrino Advanced-N 6200                                                 | 1         | 1.32%   |
 | Intel Cannon Point-LP CNVi [Wireless-AC]                                       | 1         | 1.32%   |
 | Intel 82579LM Gigabit Network Connection (Lewisville)                          | 1         | 1.32%   |
-| Intel 82577LM Gigabit Network Connection                                       | 1         | 1.32%   |
-| Dell DW5811e Snapdragonâ¢ X7 LTE                                           | 1         | 1.32%   |
-| Broadcom BCM4331 802.11a/b/g/n                                                 | 1         | 1.32%   |
-| Broadcom BCM4322 802.11a/b/g/n Wireless LAN Controller                         | 1         | 1.32%   |
-| Broadcom BCM4313 802.11bgn Wireless Network Adapter                            | 1         | 1.32%   |
-| Broadcom BCM4311 802.11b/g WLAN                                                | 1         | 1.32%   |
 
 Wireless Vendor
 ---------------
@@ -1838,7 +1816,7 @@ Ethernet models
 | Qualcomm Atheros AR8152 v1.1 Fast Ethernet                                     | 1         | 2.86%   |
 | Nvidia MCP79 Ethernet                                                          | 1         | 2.86%   |
 | Marvell Group Yukon Optima 88E8059 [PCIe Gigabit Ethernet Controller with AVB] | 1         | 2.86%   |
-| Lenovo Thinkpad USB LAN                                                        | 1         | 2.86%   |
+| Lenovo Thinkpad LAN                                                            | 1         | 2.86%   |
 | Intel Ethernet Connection I219-V                                               | 1         | 2.86%   |
 | Intel Ethernet Connection I218-LM                                              | 1         | 2.86%   |
 | Intel Ethernet Connection I217-LM                                              | 1         | 2.86%   |
@@ -1871,8 +1849,8 @@ Currently used network controller
 
 | Kind     | Notebooks | Percent |
 |----------|-----------|---------|
-| WiFi     | 37        | 62.71%  |
-| Ethernet | 22        | 37.29%  |
+| WiFi     | 36        | 92.31%  |
+| Ethernet | 3         | 7.69%   |
 
 NICs
 ----
@@ -1914,10 +1892,9 @@ Controller vendors
 |---------------------------------|-----------|---------|
 | Intel                           | 17        | 54.84%  |
 | Lite-On Technology              | 5         | 16.13%  |
+| Qualcomm Atheros Communications | 2         | 6.45%   |
 | Apple                           | 2         | 6.45%   |
 | Toshiba                         | 1         | 3.23%   |
-| Qualcomm Atheros Communications | 1         | 3.23%   |
-| Qualcomm Atheros                | 1         | 3.23%   |
 | IMC Networks                    | 1         | 3.23%   |
 | Hewlett-Packard                 | 1         | 3.23%   |
 | Foxconn / Hon Hai               | 1         | 3.23%   |
@@ -1933,13 +1910,14 @@ Controller models
 
 | Model                                                                               | Notebooks | Percent |
 |-------------------------------------------------------------------------------------|-----------|---------|
-| Intel Bluetooth Device                                                              | 9         | 29.03%  |
-| Intel Bluetooth wireless interface                                                  | 8         | 25.81%  |
-| Lite-On Bluetooth Device                                                            | 3         | 9.68%   |
+| Intel Bluetooth wireless interface                                                  | 14        | 45.16%  |
+| Intel Bluetooth 9460/9560 Jefferson Peak (JfP)                                      | 3         | 9.68%   |
+| Lite-On Qualcomm Atheros QCA9377 Bluetooth                                          | 2         | 6.45%   |
 | Lite-On Atheros AR3012 Bluetooth                                                    | 2         | 6.45%   |
 | Toshiba RT Bluetooth Radio                                                          | 1         | 3.23%   |
-| Qualcomm Atheros  Bluetooth Device                                                  | 1         | 3.23%   |
+| Qualcomm Atheros QCA61x4 Bluetooth 4.0                                              | 1         | 3.23%   |
 | Qualcomm Atheros AR3012 Bluetooth 4.0                                               | 1         | 3.23%   |
+| Lite-On Bluetooth Device                                                            | 1         | 3.23%   |
 | IMC Networks Bluetooth Radio                                                        | 1         | 3.23%   |
 | HP Bluetooth 2.0 Interface [Broadcom BCM2045]                                       | 1         | 3.23%   |
 | Foxconn / Hon Hai Foxconn T77H114 BCM2070 [Single-Chip Bluetooth 2.1 + EDR Adapter] | 1         | 3.23%   |
@@ -1999,7 +1977,7 @@ Sound card models
 | Intel 82801I (ICH9 Family) HD Audio Controller                             | 1         | 1.72%   |
 | Intel 82801H (ICH8 Family) HD Audio Controller                             | 1         | 1.72%   |
 | Intel 100 Series/C230 Series Chipset Family HD Audio Controller            | 1         | 1.72%   |
-| GYROCOM C&C DigiHug USB Audio                                              | 1         | 1.72%   |
+| GYROCOM C&C Fiio E10                                                       | 1         | 1.72%   |
 | AMD RV710/730 HDMI Audio [Radeon HD 4000 series]                           | 1         | 1.72%   |
 | AMD Raven/Raven2/Fenghuang HDMI/DP Audio Controller                        | 1         | 1.72%   |
 | AMD High Definition Audio Controller                                       | 1         | 1.72%   |
@@ -2019,7 +1997,7 @@ Memory module vendors
 | Vendor              | Notebooks | Percent |
 |---------------------|-----------|---------|
 | Samsung Electronics | 7         | 36.84%  |
-| SK Hynix            | 5         | 26.32%  |
+| SK hynix            | 5         | 26.32%  |
 | Kingston            | 2         | 10.53%  |
 | A-DATA Technology   | 2         | 10.53%  |
 | Unknown             | 1         | 5.26%   |
@@ -2034,26 +2012,26 @@ Memory module models
 ![Memory Model](./images/pie_chart/memory_model.svg)
 
 
-| Model                                                     | Notebooks | Percent |
-|-----------------------------------------------------------|-----------|---------|
-| SK Hynix RAM Module 8192MB SODIMM DDR4 2400MT/s           | 2         | 10.53%  |
-| Unknown RAM Module 4096MB SODIMM DDR3                     | 1         | 5.26%   |
-| SK Hynix RAM Module 2048MB SODIMM DDR2 800MT/s            | 1         | 5.26%   |
-| SK Hynix RAM HMT41GS6AFR8A-PB 8192MB SODIMM DDR3 1600MT/s | 1         | 5.26%   |
-| SK Hynix RAM HMAA1GS6CMR6N-VK 8GB SODIMM DDR4 2667MT/s    | 1         | 5.26%   |
-| Samsung RAM Module 4096MB SODIMM LPDDR3 1600MT/s          | 1         | 5.26%   |
-| Samsung RAM M471B5173DB0-YK0 4GB SODIMM DDR3 1600MT/s     | 1         | 5.26%   |
-| Samsung RAM M471B1G73BH0-YK0 8GB SODIMM DDR3 1600MT/s     | 1         | 5.26%   |
-| Samsung RAM M471A5244CB0-CTD 4096MB SODIMM DDR4 3266MT/s  | 1         | 5.26%   |
-| Samsung RAM M471A1K43CB1-CRC 8192MB SODIMM DDR4 2667MT/s  | 1         | 5.26%   |
-| Samsung RAM M471A1K43BB1-CRC 8192MB SODIMM DDR4 2667MT/s  | 1         | 5.26%   |
-| Samsung RAM M4 70T5663QZ3-CF7 2048MB SODIMM DDR2 2048MT/s | 1         | 5.26%   |
-| Kingston RAM ACR26D4S9S8ME-8 8GB SODIMM DDR4 2667MT/s     | 1         | 5.26%   |
-| Kingston RAM 99U5428-063.A00LF 8GB SODIMM DDR3 1600MT/s   | 1         | 5.26%   |
-| Elpida RAM Module 4096MB SODIMM DDR3 1600MT/s             | 1         | 5.26%   |
-| Crucial RAM CT8G4SFS824A.C8FE 8GB SODIMM DDR4 2667MT/s    | 1         | 5.26%   |
-| A-DATA RAM Module 8192MB SODIMM DDR4 2400MT/s             | 1         | 5.26%   |
-| A-DATA RAM AM1P26KC8T1-BBSS 8GB SODIMM DDR4 2667MT/s      | 1         | 5.26%   |
+| Model                                                    | Notebooks | Percent |
+|----------------------------------------------------------|-----------|---------|
+| SK hynix RAM Module 8192MB SODIMM DDR4 2400MT/s          | 2         | 10.53%  |
+| Unknown RAM Module 4096MB SODIMM DDR3                    | 1         | 5.26%   |
+| SK hynix RAM Module 2048MB SODIMM DDR2 800MT/s           | 1         | 5.26%   |
+| SK hynix RAM HMT41GS6AFR8A-PB 8GB SODIMM DDR3 1600MT/s   | 1         | 5.26%   |
+| SK hynix RAM HMAA1GS6CMR6N-VK 8GB SODIMM DDR4 2667MT/s   | 1         | 5.26%   |
+| Samsung RAM Module 4096MB SODIMM LPDDR3 1600MT/s         | 1         | 5.26%   |
+| Samsung RAM M471B5173DB0-YK0 4GB SODIMM DDR3 1600MT/s    | 1         | 5.26%   |
+| Samsung RAM M471B1G73BH0-YK0 8GB SODIMM DDR3 1600MT/s    | 1         | 5.26%   |
+| Samsung RAM M471A5244CB0-CTD 4GB SODIMM DDR4 3266MT/s    | 1         | 5.26%   |
+| Samsung RAM M471A1K43CB1-CRC 8GB SODIMM DDR4 2667MT/s    | 1         | 5.26%   |
+| Samsung RAM M471A1K43BB1-CRC 8192MB SODIMM DDR4 2667MT/s | 1         | 5.26%   |
+| Samsung RAM M4 70T5663QZ3-CF7 2GB SODIMM DDR2 2048MT/s   | 1         | 5.26%   |
+| Kingston RAM ACR26D4S9S8ME-8 8GB SODIMM DDR4 2667MT/s    | 1         | 5.26%   |
+| Kingston RAM 99U5428-063.A00LF 8GB SODIMM DDR3 1600MT/s  | 1         | 5.26%   |
+| Elpida RAM Module 4096MB SODIMM DDR3 1600MT/s            | 1         | 5.26%   |
+| Crucial RAM CT8G4SFS824A.C8FE 8GB SODIMM DDR4 2667MT/s   | 1         | 5.26%   |
+| A-DATA RAM Module 8192MB SODIMM DDR4 2400MT/s            | 1         | 5.26%   |
+| A-DATA RAM AM1P26KC8T1-BBSS 8GB SODIMM DDR4 2667MT/s     | 1         | 5.26%   |
 
 Memory Kind
 -----------
@@ -2091,11 +2069,12 @@ Memory module size
 ![Memory Size](./images/pie_chart/memory_size.svg)
 
 
-| Size | Notebooks | Percent |
-|------|-----------|---------|
-| 8192 | 9         | 56.25%  |
-| 4096 | 5         | 31.25%  |
-| 2048 | 2         | 12.5%   |
+| Size  | Notebooks | Percent |
+|-------|-----------|---------|
+| 8192  | 8         | 50%     |
+| 4096  | 5         | 31.25%  |
+| 2048  | 2         | 12.5%   |
+| 16384 | 1         | 6.25%   |
 
 Memory Speed
 ------------
@@ -2193,7 +2172,7 @@ Camera device models
 | Syntek USB2.0 Camera                                         | 1         | 2.7%    |
 | Sunplus Laptop Integrated WebCam HD                          | 1         | 2.7%    |
 | Sunplus Integrated_Webcam_HD                                 | 1         | 2.7%    |
-| Realtek Integrated Webcam HD                                 | 1         | 2.7%    |
+| Realtek Integrated_Webcam_HD                                 | 1         | 2.7%    |
 | Realtek Integrated Camera                                    | 1         | 2.7%    |
 | Realtek HD WebCam                                            | 1         | 2.7%    |
 | Quanta HP TrueVision HD Webcam                               | 1         | 2.7%    |
